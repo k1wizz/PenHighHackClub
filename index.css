@@ -8,6 +8,10 @@ body {
     background-color: #FDE8EA;
 }
 
+::selection {
+    background-color: #fd7688;
+}
+
 ul {
     list-style-type: none;
     overflow: hidden;
@@ -66,6 +70,10 @@ h1 {
 h2 {
     font-size: 2em;
     text-align: center;
+}
+span {
+    background-color: #f5546a;
+    padding: 4px;
 }
 
 h3 {
