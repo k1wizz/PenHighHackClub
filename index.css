@@ -6,16 +6,18 @@ body {
     margin-left: 30%;
     margin-right: 30%;
     background-color: #FDE8EA;
+    color: #252525;
 }
 
 ::selection {
-    background-color: #fd7688;
+    background-color: #fd7688dd;
 }
 
 ul {
     list-style-type: none;
     overflow: hidden;
     background-color: #f5546a;
+    border-radius: 50px;
     margin: 0;
     padding: 0;
 }
@@ -26,10 +28,10 @@ ul li {
 
 ul li a {
     display: block;
-    color: #000000;
     text-align: center;
     padding: 12px 16px;
     text-decoration: none;
+    border-radius: 50px;
 }
 
 ul li a:hover {
@@ -43,8 +45,18 @@ ul li a:hover {
 }
 
 a {
-    color: #ec3750;
+    color: #252525;
+    font-size: 24px;
     text-decoration: none;
+}
+
+#contact {
+    color: #f5546a;
+}
+
+#link {
+    color: #f5546a;
+    font-size: 18px;
 }
 
 a:hover {
@@ -57,7 +69,6 @@ hr {
     height: 8px;
     width: 75%;
     border-radius: 50px;
-    color: #ec3750;
     background-color: #ec3750;
 }
 
@@ -71,6 +82,7 @@ h2 {
     font-size: 2em;
     text-align: center;
 }
+
 span {
     background-color: #f5546a;
     padding: 4px;
@@ -87,9 +99,19 @@ p {
     margin: 10px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1074px) {
     body {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 416px) {
+    a {
+        font-size: 16px;
     }
 }
