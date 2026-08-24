@@ -3,8 +3,8 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: "Elms Sans", sans-serif;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 15%;
+    margin-right: 15%;
     background-color: #FDE8EA;
     color: #252525;
 }
@@ -113,5 +113,11 @@ p {
 @media screen and (max-width: 416px) {
     a {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    a {
+        font-size: 14px;
     }
 }
