@@ -1,0 +1,20 @@
+img {
+    height: 300px;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 585px) {
+    img {
+        height: 190px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    img {
+        height: 170px;
+    }
+}
