@@ -63,6 +63,16 @@ a:hover {
     text-decoration: underline;
 }
 
+#youtube {
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    width: 540px;
+    height: 290px;
+}
+
 hr {
     margin: 12px;
     margin-top: 32px;
@@ -105,19 +115,34 @@ p {
         margin-right: 5%;
     }
 
-    a {
-        font-size: 20px;
-    }
 }
 
-@media screen and (max-width: 416px) {
+@media screen and (max-width: 550px) {
+    iframe {
+        width: 400px;
+        height: 240px;
+    }
+
     a {
         font-size: 16px;
     }
 }
 
-@media screen and (max-width: 345px) {
+@media screen and (max-width: 424px) {
+    iframe {
+        width: 350px;
+        height: 200px;
+    }
     a {
         font-size: 14px;
+    }
+}
+@media screen and (max-width: 324px) {
+    iframe {
+        width: 300px;
+        height: 170px;
+    }
+    a {
+        font-size: 12px;
     }
 }
